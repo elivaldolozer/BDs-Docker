@@ -22,13 +22,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 # testa docker
 sudo docker run hello-world
 
-# lista containers em execução
+# lista contêineres em execução
 sudo docker ps
 
-# lista todos os conteiners
+# lista todos os contêineres
 sudo docker ps -a
 
-# inicia/para um conteiner
+# inicia/para um contêiner
 sudo docker start/stop NOME
 
 ###########
