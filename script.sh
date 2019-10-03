@@ -68,3 +68,16 @@ sudo docker run --name NOME -d mongo:latest
 # executa mongo
 sudo docker exec -it NOME bash
 mongo
+
+################################
+
+# Docker sem sudo
+# fontes: https://luizsouza.com.br/2018/11/01/docker-sem-sudo-no-ubuntu-18-04/
+
+# 1: cria um grupo para o Docker (caso não exista)
+sudo groupadd docker
+# 2: adiciona o seu usuário no grupo
+sudo usermod -aG docker $USER
+# 3: faça o login e logoff do usuário
+# 4: teste
+docker run hello-world
