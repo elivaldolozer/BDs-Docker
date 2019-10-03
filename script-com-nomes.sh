@@ -77,7 +77,7 @@ mongo
 # 1: cria um grupo para o Docker (caso não exista)
 sudo groupadd docker
 # 2: adiciona o seu usuário no grupo
-sudo usermod -aG docker $USER
+sudo usermod -aG docker aluno
 # 3: faça o login e logoff do usuário
 # 4: teste
 docker run hello-world
