@@ -81,5 +81,4 @@ sudo usermod -aG docker aluno
 # 3: faça o login e logoff do usuário
 # 4: teste
 docker run hello-world
-
 # a parir daqui, todos os bancos podem ser executados sem sudo
